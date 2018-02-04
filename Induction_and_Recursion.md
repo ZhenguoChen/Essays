@@ -2,8 +2,6 @@
 
 **Zhenguo Chen**
 
-<hr>
-
 ## Introduction
 
 [Induction](https://en.wikipedia.org/wiki/Mathematical_induction) and [recursion](https://en.wikipedia.org/wiki/Recursion)
