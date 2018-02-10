@@ -12,7 +12,11 @@ It proves a given statement in two steps:
 recursion to be proved.
 2. Inductive step. In this step, we use a set of rules to reduce all other cases to base case.
 
-This idea can be very helpful for programming. Here are a few examples on how induction and recursion
+This idea can be very helpful for programming. Recursion, as defined in wiki:
+
+>A recursive function definition has one or more base cases, meaning input(s) for which the function produces a result trivially (without recurring), and one or more recursive cases, meaning input(s) for which the program recurs (calls itself). For example, the factorial function can be defined recursively by the equations 0! = 1 and, for all n > 0, n! = n(n − 1)!.
+
+Here are a few examples on how induction and recursion
 are used.
 
 ## Factorial
