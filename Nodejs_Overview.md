@@ -5,7 +5,7 @@
 ## Introduction
 
 As described in this awesome [tutorial](https://www.lynda.com/Node-js-tutorials/Up-Running-Node-js/370605-2.html):
->Node is and open-source cross platform runtime environment for server-side and networking
+>Node.js is and open-source cross platform runtime environment for server-side and networking
 applications. It is built on top of Chrome's JavaScript runtime, the V8 engine. Also, 
 applications for Node are written in JavaScript. This is why many developers like Node
 because it'g lightweight and you can write your front-end and back-end in the same language.
@@ -20,9 +20,9 @@ asynchronicity and non-blocking operations. It is not itself a programming langu
 One of the most important features for Node.js is its asynchronous operation which can
 improve user experience dramatically. To understand asynchronous operation, let's compare 
 with synchronous operation. For synchronous operation, to move on to the next task, we
-need to wait until current task is finished which causes blocking. On the other hand, for
+need to wait until current task is finished and this results in blocking. On the other hand, for
 asynchronous operation, we can move on to next task without waiting for current task to
-finish. For example, we have a web page which need to read files from our system which may
+finish. For example, we have a web page which need to read files from our system and this may
 take some time. For synchronous operation, we need to wait until files are loaded, then
 we can interact with users. With asynchronous operation, we can still interact with users
 while we are reading files.
