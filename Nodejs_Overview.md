@@ -5,7 +5,7 @@
 ## Introduction
 
 As described in this awesome [tutorial](https://www.lynda.com/Node-js-tutorials/Up-Running-Node-js/370605-2.html):
->Node.js is and open-source cross platform runtime environment for server-side and networking
+>Node.js is an open-source cross platform runtime environment for server-side and networking
 applications. It is built on top of Chrome's JavaScript runtime, the V8 engine. Also, 
 applications for Node are written in JavaScript. This is why many developers like Node
 because it'g lightweight and you can write your front-end and back-end in the same language.
