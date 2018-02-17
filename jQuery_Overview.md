@@ -14,7 +14,7 @@ and easier to read and maintain.
 
 JQuery can help you retrieve content from the page, and perform some manipulation on it, then update your web
 pages. For example, jQuery has a great feature called selector which use [CSS](https://www.w3schools.com/css/)
-syntax to find and retrieve page content. By supporting features like this, web developer can easily get used
+syntax to find and retrieve page content. By supporting features like this, web developers can easily get used
 to jQuery and focus on web development.
 
 ## Features
@@ -22,7 +22,7 @@ to jQuery and focus on web development.
 ### 1. Selectors And Filters
 
 [Selectors and filters](https://www.sitepoint.com/comprehensive-jquery-selectors/) are one of the most 
-important concept in jQuery. They are used to extract information from web pages so that we can do some 
+important concepts in jQuery. They are used to extract information from web pages so that we can do some 
 manipulation on web page elements.
 
 1.1. Selectors use CSS to find the desired content in web pages. Let me demonstrate with some examples:
@@ -33,14 +33,14 @@ $(".selectedStyle").css("font-size", "30px");
 $("#content").css("font-size", "30px");
 ```
 * In the first line of the example, we have `$("p").css("font-size", "30px")`, which will select all the `<p>` 
-tag and return them as a list of objects so that you can operate. In this case, we select all the paragraphs
+tags and return them as a list of objects so that you can operate. In this case, we select all the paragraphs
 and set the font size to `30px`.
 
 * In the second line of the example, we have `$(".selectedStyle").css("font-size", "30px")`, which will select 
 all the items that have a CSS class named `selectedStyle` regardless of their tags.
 
 * In the third line of the example, we have `$("#content").css("font-size", "30px")`, which will select the item
-with a id name `content`.
+with id named `content`.
 
 1.2. Filters are used to refine the results return by selectors. With selector, we can select all the `<p>` tags.
 What if we only want the first paragraph? Then, we can use filters.
@@ -70,7 +70,7 @@ $( "#button" ).click(function() {
 Assume we have a button with id `button`. The example above will listen to click event, and when the button is
 clicked, our callback function will start handling the event.
 
-### Animation
+### 3. Animation
 
 JQuery provides a set of [animation effects](https://www.w3schools.com/jquery/jquery_animate.asp) which can
 polish your web application significantly. By using `animate()` method, you can create customized animations.
