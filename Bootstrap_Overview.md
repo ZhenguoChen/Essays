@@ -99,7 +99,7 @@ Basically, there are 3 steps to use Bootstrap:
 and `<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>`.
 3. Create container to wrap contents using `.container` and `.container-fluid`.
 
-Here is an example:
+Here is an example which will generate the web page below:
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -114,33 +114,14 @@ Here is an example:
 <body>
 
 <div class="container">
-  <h1>My First Bootstrap Page</h1>
-  <p>This is some text.</p> 
+  <h1>Bootstrap Example</h1>
 </div>
 
 </body>
 </html>
 ```
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body>
-
-<div class="container">
-  <h1>My First Bootstrap Page</h1>
-  <p>This is some text.</p> 
-</div>
-
-</body>
-</html>
+![](./img/Bootstrap_Demo.png)
 
 third paragraph - how to use bootstrap: write the steps of using bootstrap, give an exmaple of a simple html 
 document with CSS and JS links. this apragraph will look like it's long cause you will be giving an example
