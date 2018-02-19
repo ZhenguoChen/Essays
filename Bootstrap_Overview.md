@@ -60,7 +60,7 @@ The grid system can be [visualized](https://www.w3schools.com/bootstrap/bootstra
 The grid columns should always add up to twelve for a row. Bootstrap grid system provides four classes: xs for
 phones, sm for tablets, md for small laptops and lg for laptops and desktops. To present a table of content,
 you should create rows which hold columns, then put the content within columns. Here is an example code for
-this basic structure:
+this basic structure which generate 3 columns:
 
 ```html
 <div class="container">
@@ -89,22 +89,58 @@ this basic structure:
 </tbody></table>
 </div>
 
-The Bootstrap grid system has four classes:
+## How to use Bootstrap
 
-xs (for phones - screens less than 768px wide)
-sm (for tablets - screens equal to or greater than 768px wide)
-md (for small laptops - screens equal to or greater than 992px wide)
-lg (for laptops and desktops - screens equal to or greater than 1200px wide)
+Basically, there are 3 steps to use Bootstrap:
 
+1. Create HTML file since Bootstrap uses HTML elements and CSS properties.
+2. Load Boostrap with [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) using
+`<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">`
+and `<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>`.
+3. Create container to wrap contents using `.container` and `.container-fluid`.
 
-introduction - introduce what bootstrap is and what it is usually used for, who created it, why was it created.
-so you can say bootrap was was created becaus of standrdization of web app, look briefly into the history of 
-bootstrap and see why it's created. another thing you can mention about bootstap is it is responsive, which 
-means yuor web app looks good on ANY platform, be it phone, tablet, etc
+Here is an example:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
 
-second paragraph - talk about what makes up boostrap, which is the grid system - read more about it here: 
-https://getbootstrap.com/docs/4.0/layout/grid/ - explain how the grid system works, maybe give an example, 
-you can put in pictures to show how the grid system works, in fact the documentationa lready has it
+<div class="container">
+  <h1>My First Bootstrap Page</h1>
+  <p>This is some text.</p> 
+</div>
+
+</body>
+</html>
+```
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h1>My First Bootstrap Page</h1>
+  <p>This is some text.</p> 
+</div>
+
+</body>
+</html>
 
 third paragraph - how to use bootstrap: write the steps of using bootstrap, give an exmaple of a simple html 
 document with CSS and JS links. this apragraph will look like it's long cause you will be giving an example
