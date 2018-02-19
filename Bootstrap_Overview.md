@@ -9,15 +9,15 @@ What it says in [Bootstrap website](https://v4-alpha.getbootstrap.com/getting-st
 >Bootstrap is the world’s most popular framework for building responsive, mobile-first sites and applications. Inside you’ll find high quality HTML, CSS, and JavaScript to make starting any project easier than ever.
 
 Bootstrap is an open source toolkit developed by Mark Otto and Jacob Thornton at Twitter for building responsive
-web. It has lots of prebuilt components and powerful plugins built on jQuery. Before Bootstrap, there were many
-libraries used for developing web interface, which brings a hugh amount of burden for websites maintenance. One 
+webs. It has many prebuilt components and powerful plugins built on jQuery. Before Bootstrap, there are many
+libraries used for developing web interfaces, which brings a huge amount of burden for websites maintenance. One 
 remarkable feature of Bootstrap is its support for [responsive web design](https://en.wikipedia.org/wiki/Responsive_web_design).
-That means the layouts of your web apps can adjust dynamically and looks good on **ANY** platform (desktop, tablet,
+This means the layout of your web apps can adjust dynamically and still looks good on **ANY** platform (desktop, tablet,
 mobile phone).
 
 ## Bootstrap Grid System
 
-Bootstrap builds the layouts using a [grid system](https://getbootstrap.com/docs/4.0/layout/grid/). This grid 
+Bootstrap builds the layout using a [grid system](https://getbootstrap.com/docs/4.0/layout/grid/). The grid 
 system allows up to 12 columns across the page. You can group the columns together to create a wider column.
 The grid system can be [visualized](https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp) as below:
 
@@ -57,10 +57,10 @@ The grid system can be [visualized](https://www.w3schools.com/bootstrap/bootstra
 </tbody></table>
 </div>
 
-The grid columns should always add up to twelve for a row. Bootstrap grid system provides four classes: xs for
+The grid columns should always add up to 12 in a row. Bootstrap grid system provides four classes: xs for
 phones, sm for tablets, md for small laptops and lg for laptops and desktops. To present a table of content,
 you should create rows which hold columns, then put the content within columns. Here is an example code for
-this basic structure which generate 3 columns:
+this basic structure which generates 3 columns:
 
 ```html
 <div class="container">
@@ -93,11 +93,11 @@ this basic structure which generate 3 columns:
 
 Basically, there are 3 steps to use Bootstrap:
 
-1. Create HTML file since Bootstrap uses HTML elements and CSS properties.
-2. Load Boostrap with [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) using
+1. Create a HTML file since Bootstrap uses HTML elements and CSS properties.
+2. Load Bootstrap with [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) using
 `<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">`
 and `<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>`.
-3. Create container to wrap contents using `.container` and `.container-fluid`.
+3. Create a container to wrap contents using `.container` and `.container-fluid`.
 
 Here is an example which will generate the web page below:
 ```html
@@ -125,9 +125,9 @@ Here is an example which will generate the web page below:
 
 ## Conclusion
 
-Bootstrap is a perfect boilerplate for web developer to start with. It is good for developers who just want 
-a presentable website that can be built in an hour. There are so many things you can do with Bootstrap,
-I only scratched the surface on the features Bootstrap provides. I list some of the resources here for 
+Bootstrap is a perfect boilerplate for web developers to start with. It is good for developers who just want 
+a presentable website that can be built withinin an hour. There are so many things you can do with Bootstrap,
+I merely scratched the surface of the features Bootstrap can provide. I have listed some of the resources here for 
 anyone who is interested.
 
 * [Bootstrap 4 From Scratch With 5 Projects](https://www.udemy.com/bootstrap-4-from-scratch-with-5-projects/?siteID=my9IzLo0578-ZNndfh.f66bdj_oDmXDfdg&LSNPUBID=my9IzLo0578)
