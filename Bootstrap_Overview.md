@@ -121,7 +121,7 @@ Here is an example which will generate the web page below:
 </html>
 ```
 
-<img src="./img/Bootstrap_Demo.png" width="200" height="200" />
+<img src="./img/Bootstrap_Demo.png" width="400" height="400" />
 ![](./img/Bootstrap_Demo.png = 100x20)
 
 third paragraph - how to use bootstrap: write the steps of using bootstrap, give an exmaple of a simple html 
