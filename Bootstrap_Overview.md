@@ -23,16 +23,9 @@ system allows up to 12 columns across the page. You can group the columns togeth
 
 |Topic|# Reviews|
 |:---|:---:|
-|[Markdown: Overview](https://github.com/kenbod/5828_S18/wiki/Markdown:-Overview)|:no_entry_sign:|
-|[SQL: Overview](https://github.com/kenbod/5828_S18/wiki/SQL:-Overview)|:three:|
-|[Shells: Overview](https://github.com/kenbod/5828_S18/wiki/Overview-of-Shell-Scripting)|:three:|
-|[Scala: Overview](https://github.com/kenbod/5828_S18/wiki/Scala:-Overview)|:three:|
-|[Programming Language Paradigms: Overview](https://github.com/kenbod/5828_S18/wiki/Programming-Language-Paradigms:-Overview)|:three:|
-|[Java 9](https://github.com/kenbod/5828_S18/wiki/Java9)|:three:|
-|[Sass: Overview](https://github.com/kenbod/5828_S18/wiki/Sass:-Overview)|:three:|
-|[Kotlin: Impact on Android Programming](https://github.com/kenbod/5828_S18/wiki/Kotlin:-Impact-on-Android-Programming)|:one:|
-
-
+|||
+||||
+|||
 
 introduction - introduce what bootstrap is and what it is usually used for, who created it, why was it created.
 so you can say bootrap was was created becaus of standrdization of web app, look briefly into the history of 
