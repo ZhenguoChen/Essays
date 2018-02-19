@@ -78,19 +78,15 @@ this basic structure:
 </div>
 ```
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<div class="container">
-  <div class="row">
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-  </div>
+<div class="table-responsive">
+<table class="grid" cellspacing="0">
+<tbody>
+<tr>
+  <td colspan="4">&nbsp;Column 1</td>
+  <td colspan="4">&nbsp;Column 2</td>  
+  <td colspan="4">&nbsp;Column 3</td>
+</tr>
+</tbody></table>
 </div>
 
 The Bootstrap grid system has four classes:
