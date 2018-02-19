@@ -126,8 +126,8 @@ Here is an example which will generate the web page below:
 ## Conclusion
 
 Bootstrap is a perfect boilerplate for web developer to start with. It is good for developers who just want 
-a presentable website that can be built in an hour. There are so many thing you can do with Bootstrap,
-I only scratch the surface on the features Bootstrap provides. I just list some of the resources here for 
+a presentable website that can be built in an hour. There are so many things you can do with Bootstrap,
+I only scratched the surface on the features Bootstrap provides. I list some of the resources here for 
 anyone who is interested.
 
 * [Bootstrap 4 From Scratch With 5 Projects](https://www.udemy.com/bootstrap-4-from-scratch-with-5-projects/?siteID=my9IzLo0578-ZNndfh.f66bdj_oDmXDfdg&LSNPUBID=my9IzLo0578)
