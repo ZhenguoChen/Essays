@@ -22,9 +22,8 @@ system allows up to 12 columns across the page. You can group the columns togeth
 
 
 |Topic|# Reviews|
-|:---|:---:|
-|||
 |:---|:---:|:---:|
+|||
 ||||
 |||
 
