@@ -122,15 +122,14 @@ Here is an example which will generate the web page below:
 ```
 
 <img src="./img/Bootstrap_Demo.png" width="400" height="400" />
-![](./img/Bootstrap_Demo.png = 100x20)
 
-third paragraph - how to use bootstrap: write the steps of using bootstrap, give an exmaple of a simple html 
-document with CSS and JS links. this apragraph will look like it's long cause you will be giving an example
+## Conclusion
 
-fourth paragraph - show components of bootstrap, create a simple form using bootstrap, check out the exmaple 
-here: https://getbootstrap.com/docs/4.0/components/forms/ - you decide for yourself what's the best way to do 
-this
+Bootstrap is a perfect boilerplate for web developer to start with. It is good for developers who just want 
+a presentable website that can be built in an hour. There are so many thing you can do with Bootstrap,
+I only scratch the surface on the features Bootstrap provides. I just list some of the resources here for 
+anyone who is interested.
 
-conclusion - summarize advantages of bootstrap, say it's a good boilerplate for web deisgners to start with, 
-bootstrap is good for develoeprs who just want a presentable website that can be built in an hour. then give 
-links to bootstrap reousces
+* [Bootstrap 4 From Scratch With 5 Projects](https://www.udemy.com/bootstrap-4-from-scratch-with-5-projects/?siteID=my9IzLo0578-ZNndfh.f66bdj_oDmXDfdg&LSNPUBID=my9IzLo0578)
+* [Bootstrap 4 Essential Training](https://www.lynda.com/Bootstrap-tutorials/Bootstrap-4-Essential-Training/372545-2.html?utm_medium=affiliate&utm_source=CJ&utm_content=11926&utm_campaign=CD17318&bid=11926&AID=CD17318&AIDCJ=12316367&PIDCJ=8238032&SIDCJ=raj&subid1=8238032)
+* [Bootstrap Tutorial For Beginners](https://www.youtube.com/playlist?list=PLS1QulWo1RIaBQ1DOYYiJz38edqH_zwM1)
