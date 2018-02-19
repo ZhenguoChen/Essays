@@ -19,6 +19,7 @@ mobile phone).
 
 Bootstrap builds the layouts using a [grid system](https://getbootstrap.com/docs/4.0/layout/grid/). This grid 
 system allows up to 12 columns across the page. You can group the columns together to create a wider column.
+The grid system can be [visualized](https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp) as below:
 
 
 <div class="table-responsive">
@@ -55,6 +56,48 @@ system allows up to 12 columns across the page. You can group the columns togeth
 </tr>
 </tbody></table>
 </div>
+
+The grid columns should always add up to twelve for a row. Bootstrap grid system provides four classes: xs for
+phones, sm for tablets, md for small laptops and lg for laptops and desktops. To present a table of content,
+you should create rows which hold columns, then put the content within columns. Here is an example code for
+this basic structure:
+
+```html
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      column 1
+    </div>
+    <div class="col-sm">
+      column 2
+    </div>
+    <div class="col-sm">
+      column 3
+    </div>
+  </div>
+</div>
+```
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+  </div>
+</div>
+
+The Bootstrap grid system has four classes:
+
+xs (for phones - screens less than 768px wide)
+sm (for tablets - screens equal to or greater than 768px wide)
+md (for small laptops - screens equal to or greater than 992px wide)
+lg (for laptops and desktops - screens equal to or greater than 1200px wide)
 
 
 introduction - introduce what bootstrap is and what it is usually used for, who created it, why was it created.
