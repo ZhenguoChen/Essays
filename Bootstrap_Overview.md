@@ -21,11 +21,41 @@ Bootstrap builds the layouts using a [grid system](https://getbootstrap.com/docs
 system allows up to 12 columns across the page. You can group the columns together to create a wider column.
 
 
-|Topic|# Reviews|
-|:---|:---:|:---:|
-|||
-||||
-|||
+<div class="table-responsive">
+<table class="grid" cellspacing="0">
+<tbody><tr>
+  <td>span 1</td>
+  <td>span 1</td>  
+  <td>span 1</td>
+  <td>span 1</td>
+  <td>span 1</td>  
+  <td>span 1</td>
+  <td>span 1</td>
+  <td>span 1</td>  
+  <td>span 1</td>
+  <td>span 1</td>
+  <td>span 1</td>  
+  <td>span 1</td>
+</tr>
+<tr>
+  <td colspan="4">&nbsp;span 4</td>
+  <td colspan="4">&nbsp;span 4</td>  
+  <td colspan="4">&nbsp;span 4</td>
+</tr>
+<tr>
+  <td colspan="4">span 4</td>
+  <td colspan="8">span 8</td>  
+</tr>
+<tr>
+  <td colspan="6">span 6</td>
+  <td colspan="6">span 6</td>  
+</tr>
+<tr>
+  <td colspan="12">span 12</td>
+</tr>
+</tbody></table>
+</div>
+
 
 introduction - introduce what bootstrap is and what it is usually used for, who created it, why was it created.
 so you can say bootrap was was created becaus of standrdization of web app, look briefly into the history of 
