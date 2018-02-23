@@ -4,18 +4,16 @@
 
 ## Introduction
 
-[JQuery](https://en.wikipedia.org/wiki/JQuery) is the most widely-used open-source JavaScript libraries for
-web development. It can greatly simplifies the process of creating web applications which are highly interactive
-and responsive. With jQuery, you can enjoy features, such as [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming))
-, animations. What's more, jQuery abstracts away the browser-specific features which makes it work across 
-almost all modern browsers. This make development more efficient since you don't need to worry about how to
-make features work well for every individual browser. Compared with JavaScript, jQuery's syntax is more compact,
+[JQuery](https://en.wikipedia.org/wiki/JQuery) is the most widely-used open-source JavaScript library for
+web development. It greatly simplifies the process of creating web applications which are highly interactive
+and responsive. With jQuery, you can enjoy features such as [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming))
+and animations. What's more, jQuery abstracts away browser-specific features which makes it work across 
+almost all modern browsers. This makes development more efficient since you do not need to worry about how to
+make features work well for every individual browser. Compared to JavaScript, jQuery's syntax is more compact
 and easier to read and maintain.
 
-JQuery can help you retrieve content from the page, and perform some manipulation on it, then update your web
-pages. For example, jQuery has a great feature called selector which use [CSS](https://www.w3schools.com/css/)
-syntax to find and retrieve page content. By supporting features like this, web developers can easily get used
-to jQuery and focus on web development.
+JQuery can also help you retrieve content from web pages and perform some manipulation on it, then update them. For example, jQuery has a great feature called selector which uses [CSS](https://www.w3schools.com/css/)
+syntax to find and retrieve page content. By supporting features like this, web developers can understand jQuery quickly and focus on web development.
 
 ## Features
 
@@ -32,14 +30,14 @@ $("p").css("font-size", "30px");
 $(".selectedStyle").css("font-size", "30px");
 $("#content").css("font-size", "30px");
 ```
-* In the first line of the example, we have `$("p").css("font-size", "30px")`, which will select all the `<p>` 
-tags and return them as a list of objects so that you can operate. In this case, we select all the paragraphs
-and set the font size to `30px`.
+* In the first line of example, we have `$("p").css("font-size", "30px")` which will select all the `<p>` 
+tags and return them as a list of objects. In this case, we select all paragraphs
+and set font size to `30px`.
 
-* In the second line of the example, we have `$(".selectedStyle").css("font-size", "30px")`, which will select 
-all the items that have a CSS class named `selectedStyle` regardless of their tags.
+* In the second line of example, we have `$(".selectedStyle").css("font-size", "30px")`, which will select 
+all items that have a CSS class named `selectedStyle` regardless of their tags.
 
-* In the third line of the example, we have `$("#content").css("font-size", "30px")`, which will select the item
+* In the third line of example, we have `$("#content").css("font-size", "30px")`, which will select the item
 with id named `content`.
 
 1.2. Filters are used to refine the results return by selectors. With selector, we can select all the `<p>` tags.
@@ -50,7 +48,7 @@ $("p:first").css("font-size", "30px");
 ```
 
  This example differs from the previous one with `:first` after the `p`. It will select only the first paragraph
- in current web page. You can also have some more complicated filter using operators, such as `not` operator:
+ in current web page. You can also have more complicated filter using operators, such as `not` operator:
  
 ```
 $("p:not(.selectedStyle)").css("font-size", "30px");
@@ -67,8 +65,8 @@ $( "#button" ).click(function() {
 });
 ```
 
-Assume we have a button with id `button`. The example above will listen to click event, and when the button is
-clicked, our callback function will start handling the event.
+Assuming we have a button with id `button`. The example above will listen to click event, and when the button is
+clicked, the callback function will handle the event.
 
 ### 3. Animation
 
