@@ -2,7 +2,7 @@
 
 **Zhenguo Chen**
 
-## Intorduction
+## Introduction
 
 Drew Houston, the CEO and founder of [Dropbox](https://en.wikipedia.org/wiki/Dropbox_(service)), is considered 
 one of the most successful graduates of [Y Combinator](https://en.wikipedia.org/wiki/Y_Combinator_(company)).
@@ -14,7 +14,7 @@ companies in the world.
 ## Idea
 
 The initial idea of Dropbox came from the inconvenience of thumb drives since he always left it at home when he
-actually need it. So, he started thinking about creating a file sharing system to solve this problem. In his
+actually needed it. So, he started thinking about creating a file sharing system to solve this problem. In his
 [interview with Business Insider](http://www.businessinsider.com/dropbox-founder-and-ceo-drew-houston-interview-2017-6),
 he said:
 
@@ -29,16 +29,15 @@ out of MIT and work with Houston. As described by Houston:
 
 >"It was sort of like getting married on the first or second date. It was wild because I thought I would have to, like, talk to his parents or somehow reassure him that this was a good decision to spend most of our waking hours for the foreseeable future together, but to his credit, he just jumped right in."
 
-It took a long time for Dropbox to launch its service. However, it got lots of attraction after it launched its 
+It took a long time for Dropbox to launch its service. However, it attracted much attraction after it launched its 
 service, even Apple showed its interest in this promising company. Jobs requested a meeting with Houston and tried
-to convince Houston to sell his company. He even pointed out that Dropbox is a feature rather than a product, and
-they will be disadvantaged. However, under the pressure of Jobs, Houston still turned off the offer and faced the
-challenge of iCloud.
+to convince Houston to sell his company since he felt that Dropbox is a feature rather than a product, and
+they will be at a disadvantage if put up onto the market. However, under the pressure of Jobs, Houston still turned down the offer and faced the challenge of iCloud.
 
-As it turns out, Dropbox experienced a stunning growth. It has seen steady user growth since its inception. In 2010, 
+As it turned out, Dropbox experienced a stunning growth. It has seen steady user growth since its inception. In 2010, 
 its user number grew from 1 million in April, to 2 million in September, and 3 million in November. And now, it has
  more than 500 million users. Its revenue hit $240 million in 2011 even though 96% of ts user pay nothing. With more 
-and more users upgrading their storage, Dropbox has its revenue keep increasing and become a billion-dollar enterprise.
+and more users upgrading their storage, Dropbox's revenue is ever increasing and becoming a billion-dollar enterprise.
 
 ## Reference
 
