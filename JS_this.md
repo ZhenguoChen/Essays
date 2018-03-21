@@ -4,18 +4,17 @@
 
 ## Introduction
 
-In most modern programming languages, there are `this` keyword. In most the these languages, `this` has similar
+The `this` keyword exists in most modern programming languages. In most the these languages, `this` has similar
 usage. For instance, in C++, `this` is a constant pointer that holds the memory address of the current object
-which means `this` is always connected with current object. However, in JavaScript, `this` has `weird` usage. 
-The value of `this` is determined by how a function is called which means it may be different each time the
+which means `this` is always connected with current object. However, in JavaScript, `this` has a different usage. 
+The value of `this` is determined by how a function is called, this means it may be different each time the
 function is called. Here, we will go through four of the most common situations.
 
 ## Usage
 
 ### 1. Global Context
 
-In global execution context, `this` is the global object (in browser, it is the `window` object), no matter if
-you are in strict mode or not. Therefore, `console.log(this == window)` will print out true in console. Also, 
+In global execution context, `this` is the global object (in browser, it is the `window` object), regardless of the fact you are in strict mode or not. Therefore, `console.log(this == window)` will print out true in console. Also, 
 when you declare `this.b = 'b'`, you will get `window.b = 'b'`.
 
 ```js
@@ -41,8 +40,7 @@ console.log(f()); // window
 
 #### 2.2 strict mode
 
-However, it behaves differently under `strict mode`. The value of `this` remains at whatever it was set to when
-entering the execution context. In the following code, in `strict mode`, `this` is not defined by the execution
+However, it behaves differently under `strict mode`. The value of `this` remains at whatever it was set to as compared to when entered during the execution context. In the following code, in `strict mode`, `this` is not defined by the execution
 context. So, it remains `undefined`.
 
 ```js
@@ -58,7 +56,7 @@ console.log(f2() == undefined); // True
 
 This is where `this` confuses most people, because you may think, in function invocation, `this` is the same in an
 inner function as in the outer function. However, the truth is, the context of inner function depends only on 
-invocation, but not on the outer function's context. Let's take a look at the following code:
+invocation, and not on the outer function's context. Let's take a look at the following code:
 
 ```js
 var obj = {
@@ -74,7 +72,7 @@ var obj = {
 console.log(obj.method()); // undefined
 ```
 
-Since function `f` is defined inside `obj`, so you might expect to have `this` as our `obj`. However, `f` is 
+Since function `f` is defined inside `obj`, you may expect to have `this` as our `obj`. However, `f` is 
 actually an inner function which has a different context compared with its outer function. To get expected result,
 `f` should be executed with the same context as the `method` function. We can modify the inner function's context
 with indirect invocation by using `.call` or `.apply()`.
@@ -145,7 +143,7 @@ var f2 = obj.f;
 console.log(f2()); // undefined
 ```
 
-We can use `.bind` to fixes the context, binding function with object. Once we bind a function with an object, it
+We can use `.bind` to fix the context, binding function with object. Once we bind a function with an object, it
 will work as a method invocation. Therefore, the following example will get output `object`.
 
 ```js
@@ -198,7 +196,7 @@ handled by constructor method. `this` here refers to this newly created object.
 
 These are just four of the most common situations where `this` is used. There are also some other situations in
 which `this` have different usages, such as arrow function and bound function. The examples above are tested under
-Node.js 8. If there you get any different results (it is possible, JavaScript is so weird), feel free to leave a 
+Node.js 8. If you get any different results (it is possible, JavaScript is so weird), feel free to leave a 
 comment below!
 
 ## Reference:
