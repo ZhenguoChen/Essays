@@ -4,7 +4,7 @@
 
 ## Introduction
 
-A parser is an important module in an interpreter or compiler which parse a sequence of tokens and find the derivation for this sequence of tokens to generate a parser tree (also known as [syntax tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree)). To put it in another way, parsing is the problem of taking a string of [terminal](https://en.wikipedia.org/wiki/Terminal_and_nonterminal_symbols) symbols and finding a derivation for that string of symbols in a contaxt-free grammar. Parsing is an area with numerous more efficient algorithms, useful tools, and interesting techniques, as well as elegant theory. A recursive descent parser works top-down in the grammar and left-to-right in the input string.
+A parser is an important module in an interpreter or compiler which parse a sequence of tokens and find the derivation for this sequence of tokens to generate a parse tree (also known as [syntax tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree)). To put it in another way, parsing is the problem of taking a string of [terminal](https://en.wikipedia.org/wiki/Terminal_and_nonterminal_symbols) symbols and finding a derivation for that string of symbols in a contaxt-free grammar. Parsing is an area with numerous more efficient algorithms, useful tools, and interesting techniques, as well as elegant theory. A recursive descent parser works top-down in the grammar and left-to-right in the input string.
 
 ## Requirement for Recursive Descent Parser
 
@@ -18,11 +18,11 @@ the `A` here is the non-terminal, `alpha` and `beta` are the terminals. we can r
 
 ![](img/rule2.png)
 
-Note that we eliminate the left recursion by adding one more non-terminal (`A prime`) and one more terminal (`epsilon`). With the help of these extra terminal and non-terminal, we will be able to make the grammar right recursive. Then, we can start implement our recursive descent parser.
+Note that we eliminate the left recursion by adding one more non-terminal (`A prime`) and one more terminal (`epsilon`). With the help of these extra terminal and non-terminal, we will be able to make the grammar right recursive. Then, we can start implementing our recursive descent parser.
 
 ## Implementation
 
-The basic pattern is to write a recursive function for each non-terminal in the grammar. Each parsing function tries to parse characters from the input string by applying each production for that non-terminal in sequence. If applying a production fails, then ir backtracks and tries the next one.  Apply a production means:
+The basic pattern is to write a recursive function for each non-terminal in the grammar. Each parsing function tries to parse characters from the input string by applying each production for that non-terminal in sequence. If applying a production fails, then it backtracks and tries the next one.  Apply a production means:
 
 1. consumeing characters from the left o the string to match a terminal or
 2. calling the function corresponding to a non-terminal to try to match that non-terminal.
@@ -65,12 +65,12 @@ exprRest() {
 }
 ```
 
-The `match()` function here is used to check if the current token `cur` matches with its argument or not.
+The `match()` function here is used to check if the current token `tok` matches with its argument or not.
 
 ```
 match(Token t) {
-  if (cur == t) {
-    cur = nextToken();
+  if (tok == t) {
+    tok = nextToken();
   }
   else {
     error():
